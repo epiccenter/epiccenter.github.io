@@ -6,7 +6,7 @@ config = {
     countdown: {
         year: 2016,
         month: 11,
-        day: 14,
+        day: 16,
         hour: 12,
         minute: 00,
         second: 00

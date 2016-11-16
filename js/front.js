@@ -6,10 +6,10 @@ config = {
     countdown: {
         year: 2016,
         month: 11,
-        day: 16,
-        hour: 12,
-        minute: 00,
-        second: 00
+        day: 17,
+        hour: 23,
+        minute: 59,
+        second: 59
     }
 }
 

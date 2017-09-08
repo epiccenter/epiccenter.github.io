@@ -52,16 +52,16 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a class="page-scroll" href="/about">About</a>
-                    </li> 
+                    </li>
                     <li>
                         <a class="page-scroll" href="/incubation">Incubation</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/events">Events</a>
-                    </li> 
+                    </li>
                     <li>
                         <a class="page-scroll" href="/lab">Prototyping lab</a>
-                    </li>                  
+                    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contacts</a>
                     </li>
@@ -74,7 +74,7 @@
 
     <header>
     </header>
-<section class>           
+<section class>
         <!-- countdown-->
     <div class="row header-content">
             <div class="header-content-inner">
@@ -82,10 +82,32 @@
                 <hr class="light">
 
         <a href="/incubation" class="btn btn-primary btn-xl page-scroll" style="margin-right: 20px">Find Out More</a>
- 
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSccKa6RB1SsFB6P4DvOVZKxKWVefyTlOTYYB48a-c4PN-kRkw/viewform" class="page-scroll btn btn-primary btn-xl sr-button">Apply Now</a>
+
+            </div>
+  <div id="countdown" class="countdown">
+          <div class="row">
+            <div class="countdown-item col-sm-3 col-xs-6">
+              <div id="countdown-days" class="countdown-number">&nbsp;</div>
+              <div class="countdown-label">days</div>
+            </div>
+            <div class="countdown-item col-sm-3 col-xs-6">
+              <div id="countdown-hours" class="countdown-number">&nbsp;</div>
+              <div class="countdown-label">hours</div>
+            </div>
+            <div class="countdown-item col-sm-3 col-xs-6">
+              <div id="countdown-minutes" class="countdown-number">&nbsp;</div>
+              <div class="countdown-label">minutes</div>
+            </div>
+            <div class="countdown-item col-sm-3 col-xs-6">
+              <div id="countdown-seconds" class="countdown-number">&nbsp;</div>
+              <div class="countdown-label">seconds</div>
+            </div>
+          </div>
+         </div>
 </section>
-    
- 
+
+
     <section id="contact" class="bg-dark">
         <div class="container">
             <div class="row">
@@ -105,14 +127,14 @@
             </div>
             <div class="row">
             <div id="map" class="col-lg-12">
-            </div>                
+            </div>
             </div>
         </div>
     </section>
- <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpMt2LzcXdibusmAXsuuNN9xOTCou5MpQ" type="text/javascript">       
+ <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpMt2LzcXdibusmAXsuuNN9xOTCou5MpQ" type="text/javascript">
             // When the window has finished loading create our google map below
             google.maps.event.addDomListener(window, 'load', init);
-        
+
             function init() {
                 // Basic options for a simple Google Map
                 // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
@@ -123,8 +145,9 @@
                     // The latitude and longitude to center the map (always required)
                     center: new google.maps.LatLng(40.6700, -73.9400), // New York
 
-                    // How you would like to style the map. 
+                    // How you would like to style the map.
                     // This is where you would paste any style found on Snazzy Maps.
+
                     styles: [
                     {
                         "featureType": "road",
@@ -171,7 +194,7 @@
                 ]};
                     //AIzaSyBpMt2LzcXdibusmAXsuuNN9xOTCou5MpQ Google API Key
 
-                // Get the HTML DOM element that will contain your map 
+                // Get the HTML DOM element that will contain your map
                 // We are using a div with id="map" seen below in the <body>
                 var mapElement = document.getElementById('map');
 
@@ -186,6 +209,7 @@
                 });
             }
     </script>
+
     <!-- jQuery -->
     <script src="jquery/jquery.min.js"></script>
 
